@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 18th Birthday, Eunice!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🎉 Happy 18th Birthday, Eunice! 🎉</h1>
+      <p>Wishing you all the love, laughter, and joy on your special day. May this milestone bring you endless happiness and a bright future!</p>
+      <p class="signature">With Love, Your Friends & Family</p>
+      <button onclick="showMessage()">Surprise Message</button>
+      <div class="surprise-message" id="message" style="display: none;">
+        <p>Cheers to new adventures, unforgettable memories, and all the exciting moments that await you, Eunice! 🎈</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    function showMessage() {
+      const message = document.getElementById("message");
+      message.style.display = message.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</body>
+</html>
